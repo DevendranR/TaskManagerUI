@@ -1,0 +1,84 @@
+/* App.css */
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carbon-table-wrapper {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%; /* You can adjust this as per your needs */
+    max-width: 900px;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .task-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  /* Dropdown Styling */
+.dropdown-container {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dropdown-container label {
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .dropdown-container select {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    appearance: none;  /* Hide default arrow */
+    outline: none;     /* Remove focus outline */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  
+    /* Add a custom arrow icon */
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"%3E%3Cpath d="M9 1L5 5 1 1" stroke="%23999" stroke-width="2" fill="none"%3E%3C/path%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+  }
+  
+  .dropdown-container select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .dropdown-container option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dropdown-container option:hover {
+    background-color: #f2f2f2;
+  }
+  
